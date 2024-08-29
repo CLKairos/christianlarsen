@@ -1,0 +1,33 @@
+---
+const { inputName, defaultTextContent, height, placeholder } = Astro.props;
+
+interface Props {
+  inputName: string;
+  defaultTextContent?: string;
+  height: string;
+  placeholder?: string;
+}
+---
+
+<input
+  style={`height: ${height}`}
+  id={inputName + "-input"}
+  placeholder={placeholder || ""}
+  value={defaultTextContent || ""}
+  type="text"
+/>
+
+<style>
+  input {
+    width: 100%;
+    border: 2px solid var(--background-highlight);
+    border-radius: 10px;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    transition: 0.1s ease-in-out;
+  }
+  input:focus {
+    outline: none;
+    border: 2px solid var(--text-color);
+  }
+</style>
