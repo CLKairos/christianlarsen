@@ -20,7 +20,7 @@ function App() {
         </div>
         <div className='links'>
           <p><b>Links</b></p>
-          <p><a href='https://youtube.com/realkairos'>YouTube</a></p>
+          <p><a href='https://youtube.com/@realkairos'>YouTube</a></p>
           <p><a href='https://twitch.tv/realka1ros'>Twitch</a></p>
         </div>
       </div>
