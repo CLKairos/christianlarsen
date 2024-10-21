@@ -1,5 +1,4 @@
 import logo from './logo.jpg'
-import resume from '../public/Resume.pdf'
 import './App.css';
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
         <p>Christian Larsen</p>
         <p>Class of 2028</p>  
         <p>Software Enginner, and Web Developer</p>
-        <p><a href={resume}>Resume</a></p>
+        <p><a href='https://docs.google.com/document/d/1M2LerwCtYjl00oKIyRdX2ISRRcTVeW3Je0Sme40OYlw/edit?usp=sharing'>Resume</a></p>
       </header>
       <div className='footer'>
         <div className='contact'>
@@ -23,7 +22,6 @@ function App() {
           <p><b>Links</b></p>
           <p><a href='https://youtube.com/realkairos'>YouTube</a></p>
           <p><a href='https://twitch.tv/realka1ros'>Twitch</a></p>
-          <p><a href='#'>Twitter</a></p>
         </div>
       </div>
     </div>
